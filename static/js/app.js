@@ -35,8 +35,6 @@ function charts(sample_index){
       d3.select("#sample-metadata").append("h5").text(`${key}: ${value}`);
   });
   
-  
-  
   //HORIZONTAL BAR CHART
     // convert to objectmatch all data into an object, key value pair
     let merged = values.map((val,i)=> {
